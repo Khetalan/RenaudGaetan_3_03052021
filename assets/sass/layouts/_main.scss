@@ -1,0 +1,32 @@
+main{
+    > h2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 35px 65px 0px 65px;
+    }
+    > p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        margin: 20px 40px;
+    }
+    img{
+        height: 175px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+}
+.container{
+    background-color: $bgcolor;
+    max-width: 425px;
+    margin: auto;
+    padding: 22px;
+}

@@ -1,0 +1,28 @@
+.service{
+    font-family: 'Roboto', sans-serif;
+    max-width: 425px;
+    margin: auto;
+    background-color: #353535;
+    color: white;
+    >h3{
+        font-family: 'Shrikhand', sans-serif;
+        padding: 10px 15px;
+    }
+}
+.mention{
+    padding: 0 20px;
+    >ul{
+        list-style: none;
+        i{
+            padding-right: 12px;
+        }
+    }
+    li{
+        width: 100%;
+        padding-top: 10px;
+        cursor: pointer;
+        &:hover{
+            font-size: 110%;
+        }
+    }
+}
