@@ -1,0 +1,20 @@
+{
+  "name": "renaudgaetan_3_03052021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass --watch ./assets/sass/main.scss:./assets/css/style.css --style compact",
+    "prefix" : "postcss ./assets/css/style.css --use autoprefixer -d ./assets/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khetalan/RenaudGaetan_3_03052021.git"
+  },
+  "author": "Gaetan RENAUD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khetalan/RenaudGaetan_3_03052021/issues"
+  },
+  "homepage": "https://github.com/Khetalan/RenaudGaetan_3_03052021#readme"
+}
