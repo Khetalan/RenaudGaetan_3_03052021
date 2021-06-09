@@ -2,14 +2,16 @@
 @import './base/base';
 @import './base/font';
 @import './utils/variables';
+@import './utils/mixin';
+@import './components/keyframe';
 @import './components/menu-card';
+@import './components/heart-anim';
 
 
 @import './components/search-location';
-@import './components/_explore';
-@import './components/_step';
-@import './components/container';
-
+@import './components/btn-explore';
+@import './components/btn-step';
+@import './components/btn-command';
 
 @import './layouts/header';
 @import './layouts/main';
@@ -17,5 +19,3 @@
 
 @import './pages/index';
 @import './pages/menu';
-
-@import './utils/mixin';
