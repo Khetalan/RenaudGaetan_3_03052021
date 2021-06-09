@@ -1,0 +1,15 @@
+.heart-anim{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 20px;
+    >i{
+        &:hover{
+            display: inline-block;
+            background-color: $secondary;
+            transform: translateY(1);
+            transform-origin: bottom center;
+            transition: all 1000ms linear;
+        }
+    }
+}

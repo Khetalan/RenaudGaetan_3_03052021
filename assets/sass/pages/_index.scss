@@ -1,0 +1,24 @@
+.section-step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    > h2{
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+.section-card{
+    background-color: $bgcolor;
+    max-width: 425px;
+    margin: auto;
+    padding: 22px;
+    font-family: 'Roboto', sans-serif;
+    > h2{
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width : 768px){
+    
+}

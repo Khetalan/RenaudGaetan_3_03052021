@@ -1,9 +1,7 @@
-.explore{
+.btn-command{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 35px;
-    background-color: $secondary;
+    margin: 0 auto 35px auto;
+    background: linear-gradient(0deg, rgba(147,86,220,1) 23%, rgba(255,121,218,1) 100%);
     border-radius: 30px;
     &__button{
         color: white;

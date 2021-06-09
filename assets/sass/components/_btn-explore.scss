@@ -1,7 +1,7 @@
 .btn-explore{
     display: flex;
     margin: 0 auto 35px auto;
-    background-color: $secondary;
+    background: linear-gradient(0deg, rgba(147,86,220,1) 23%, rgba(255,121,218,1) 100%);
     border-radius: 30px;
     &__button{
         color: white;
