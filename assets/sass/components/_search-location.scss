@@ -1,14 +1,23 @@
 .search-location{
     box-shadow: inset 0px 0.5px 6px #eaeaea;
-    background-color: #f1f0f0;
+    background: linear-gradient(0deg, rgba(234,234,234,1) 90%, rgba(207,207,207,1) 100%);
     display: flex;
     justify-content: center;
     width: 100%;
+    input{
+        outline: none;
+        background: transparent;
+    }
     &__form{
         padding: 10px;
+        >i{
+            padding-right: 15px;
+            color: #353535;
+        }
+        
     }
     &__field{
         padding: 0px 10px;
-        background-color: #f1f0f0;
+        background-color: #eaeaea;
     }
 }
