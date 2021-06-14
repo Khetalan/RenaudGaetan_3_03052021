@@ -1,3 +1,59 @@
+//----LOADER ----- \\
+@keyframes loader-hide{
+    100%{
+        z-index: -1;
+    }
+}
+@keyframes end-loader{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes loader{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes text-slide{
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+//----- ANIM HEART -----\\
+@keyframes full-heart{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        color: $secondary;
+        font-weight: bold;
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes empty-heart{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        z-index: 1;
+        opacity: 1;
+    }
+}
+
+//----- ANIM MENU ---- \\
 @keyframes anim-menu{
     0%{
         transform: translateY(200px);

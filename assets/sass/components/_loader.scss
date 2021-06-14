@@ -1,0 +1,34 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 0px auto;
+    //animation: end-loader 1sec linear;
+    &__spin{
+        border: 5px solid transparent;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border-top: 5px solid $primary;
+        border-right: 5px solid $secondary;
+        border-bottom: 5px solid $tertiary;
+        cursor: progress;
+        animation: loader 1s linear infinite;
+    }
+    &__text{
+        position: absolute;
+        display: flex;
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 32px;
+        .loader__oh{
+            animation: text-slide 1000ms linear ;
+        }
+        .loader__my{
+            animation: text-slide 1000ms linear 250ms ;
+        }
+        .loader__food{
+            animation: text-slide 1000ms linear 500ms;
+        }
+    }
+}
