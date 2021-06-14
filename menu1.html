@@ -9,6 +9,16 @@
     <title>Restaurant - La palette du goût</title>
 </head>
 <body>
+    <div class="display-loader">
+        <div class="loader">
+            <div class="loader__spin"></div>
+            <div class="loader__text">
+                <span class="loader__oh">oh</span>
+                <span class="loader__my">my</span>
+                <span class="loader__food">food</span>
+            </div>
+        </div>
+    </div>
     <header>
         <a href="index.html"><i class="fas fa-arrow-left"></i></a>
         <img src="./assets/images/logo/ohmyfood@2x.svg" alt="logo" title="Logo">
@@ -17,9 +27,13 @@
         <img src="./assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="A la française" title="Restaurant - A la Française">
         <section class="eat-menu">
             <h1>La palette du goût</h1>
-            <i class="far fa-heart"></i>
+            <div class="heart-anim" tabindex="0">
+                <i class="far fa-heart empty-heart"></i>
+                <i class="far fa-heart full-heart"></i>
+            </div>
             <div class="first">
                 <h2>ENTRÉES</h2>
+                <div class="green-line"></div>
                 <div class="eat-card">
                     <div class="eat-content">
                         <div class="eat-content__title">
@@ -59,6 +73,7 @@
             </div>
             <div class="second">
                 <h2>PLATS</h2>
+                <div class="green-line"></div>
                 <div class="eat-card">
                     <div class="eat-content">
                         <div class="eat-content__title">
@@ -72,11 +87,13 @@
                     </div>
                 </div>
                 <div class="eat-card">
-                    <div class="eat-content"><div class="eat-content__title">
-                        <h3>Parmentier de queue de boeuf</h3>
-                        <p>À la truffe noire sur sa purée de panais </p>
+                    <div class="eat-content">
+                        <div class="eat-content__title">
+                            <h3>Parmentier de queue de boeuf</h3>
+                            <p>À la truffe noire sur sa purée de panais </p>
+                        </div>
+                        <span>35€</span>
                     </div>
-                    <span>35€</span></div>
                     <div class="eat-card__check">
                         <i class="fas fa-check-circle eat-valid"></i>
                     </div>
@@ -96,9 +113,10 @@
             </div>
             <div class="happy-hour">
                 <h2>DESSERTS</h2>
+                <div class="green-line"></div>
                 <div class="eat-card">
                     <div class="eat-content">
-                        <div class="eat-title">
+                        <div class="eat-content__title">
                             <h3>Paris-Brest</h3>
                             <p>Et glace à la vanille de Madagascar </p>
                         </div>
@@ -110,7 +128,7 @@
                 </div>
                 <div class="eat-card">
                     <div class="eat-content">
-                        <div class="eat-title">
+                        <div class="eat-content__title">
                             <h3>Macaron au chocolat d'exception</h3>
                             <p>Et glace à la vanille de Madagascar </p>
                         </div>
@@ -122,7 +140,7 @@
                 </div>
                 <div class="eat-card">
                     <div class="eat-content">
-                        <div class="eat-title">
+                        <div class="eat-content__title">
                             <h3>Mousse au chocolat</h3>
                             <p>Au piment d'Espelette et à la truffe noire </p>
                         </div>
