@@ -3,19 +3,21 @@
 @import './base/font';
 @import './utils/variables';
 @import './utils/mixin';
+
+@import './layouts/header';
+@import './layouts/main';
+@import './layouts/footer';
+@import './layouts/display-loader';
+
+@import './components/loader';
 @import './components/keyframe';
 @import './components/menu-card';
 @import './components/heart-anim';
-
 
 @import './components/search-location';
 @import './components/btn-explore';
 @import './components/btn-step';
 @import './components/btn-command';
-
-@import './layouts/header';
-@import './layouts/main';
-@import './layouts/footer';
 
 @import './pages/index';
 @import './pages/menu';

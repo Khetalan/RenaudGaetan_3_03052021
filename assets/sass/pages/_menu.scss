@@ -1,16 +1,4 @@
-header{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-    max-width: 425px;
-    i{
-        margin-left: 20px;
-        padding: 3px 4px;
-    }
-    img{
-        margin: 0 auto;
-    }
-}
+
 main{
     img{
         height: 200px;
@@ -35,11 +23,19 @@ main{
     padding: 15px;
     animation: anim-menu 1.5s;
     h2{
-        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
         font-weight: 200;
         width: auto;
+        margin-bottom: 4px;
     }
-    > i{
+    .green-line{
+        background-color: $tertiary ;
+        width: 40px;
+        height: 3px;
+        margin-bottom: 15px;
+    }
+    .heart-anim{
+        margin-bottom: 20px;
         margin-left: auto;
         font-size: 24px;
     }
@@ -59,11 +55,9 @@ main{
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 10px;
-    h2{
-        margin-bottom: 10px;
-    }
     h3{
         width: auto;
+        font-size: 16px;
     }
     p{
         justify-content: space-between;
@@ -74,58 +68,6 @@ main{
         font-weight: bold;
     }
 }
-/*.eat-card{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: #e5e5e5 0.2px 0.2px 10px;
-    cursor: pointer;
-    overflow: hidden;
-    width: 100%;
-    &__check{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60px;
-        height: 100%;
-        background-color: $tertiary;
-        color: white;
-        transform: translateX(100%);
-    }
-    &:hover{
-        .eat-card__check{
-            transform: scaleX(1);
-            transition: transform 500ms ease-in-out;
-        }
-        .eat-valid{
-            display: inline-block;
-            font-size: 16px;
-            transform: rotate(1turn);
-            transition: transform 800ms ease-in-out 400ms;
-        }
-    }
-    .eat-content{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px;
-        >span{
-            white-space: nowrap;
-        }
-        &__title{
-            min-width: 0;
-            
-        }
-        > p{
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-    }
-}*/
-
 .eat-card{
     position: relative;
     display: flex;
