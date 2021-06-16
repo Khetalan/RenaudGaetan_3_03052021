@@ -1,8 +1,10 @@
 .heart-anim{
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 26px;
     margin-right: 20px;
+    padding-right: 3px;
+    cursor: pointer;
     .empty-heart{
         z-index: 2;
         position: relative;
@@ -16,7 +18,9 @@
     &:focus{
         .full-heart, .empty-heart{
             font-weight: bold;
-            color: $tertiary;
+            background: linear-gradient(4deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 70%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     }
 }

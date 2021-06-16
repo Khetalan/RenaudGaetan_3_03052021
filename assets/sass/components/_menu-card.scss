@@ -9,14 +9,16 @@
     &__text{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         position: relative;
         top: -3px;
         height: 75px;
         background-color: white;
         border-radius: 0px 0px 15px 15px;
         margin-bottom: 20px;
-        div{
-            padding: 10px 0;
+        .menu-title{
+            padding-top: 10px;
+            padding-bottom: 10px;
             margin-left: 20px;
             >p{
                 padding: 5px 0px;
@@ -26,11 +28,16 @@
             text-decoration: none;
             color: black;
         }
-        /*.heart-anim{
-            display: flex;
-            align-items: center;
-            font-size: 30px;
-            margin-right: 20px;
-        }*/
+        .new-menu{
+            position: relative;
+            top: -184px;
+            left: 22%;
+            color: darken($color: $tertiary, $amount: 50%);
+            font-weight: 500;
+            background-color: $tertiary;
+            padding: 11px 15px;
+            border-radius: 3px;
+        }
     }
+
 }
