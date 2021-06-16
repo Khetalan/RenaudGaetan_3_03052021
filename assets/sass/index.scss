@@ -1,17 +1,19 @@
+@import './base/font';
 @import './base/reset';
 @import './base/base';
-@import './base/font';
+
 @import './utils/variables';
 @import './utils/mixin';
 
+@import './layouts/display-loader';
 @import './layouts/header';
 @import './layouts/main';
 @import './layouts/footer';
-@import './layouts/display-loader';
 
 @import './components/loader';
 @import './components/keyframe';
 @import './components/menu-card';
+@import './components/eat-menu';
 @import './components/heart-anim';
 
 @import './components/search-location';
