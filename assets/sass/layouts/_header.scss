@@ -12,10 +12,12 @@
 }*/
 header{
     display: flex;
-    margin: 0 auto 10px auto;
+    margin: 20px auto 10px auto;
     max-width: 425px;
     align-items: center;
     i{
+        color: black;
+        font-size: 22px;
         margin-left: 20px;
         padding: 3px 4px;
     }
