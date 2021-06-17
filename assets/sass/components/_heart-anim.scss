@@ -10,17 +10,23 @@
         position: relative;
         left: 50%;
     }
+    .full-heart{
+        background-color: transparent;
+    }
     &:hover{
         .full-heart{
+            color: $secondary;
+            font-weight: bold;
             animation: full-heart 500ms linear forwards;
         }
     }
     &:focus{
-        .full-heart, .empty-heart{
+        .full-heart{
             font-weight: bold;
             background: linear-gradient(4deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 70%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        animation: clic-heart 500ms linear forwards;
     }
 }
