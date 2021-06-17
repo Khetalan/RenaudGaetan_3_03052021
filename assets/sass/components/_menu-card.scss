@@ -39,5 +39,42 @@
             border-radius: 3px;
         }
     }
-
+}
+//---- MEDIA QUERIES 768 ----\\
+@media screen and (max-width : 768px) {
+    .bloc-menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .menu-card{
+        width: 100% ;
+        margin: auto;
+        .new-menu{
+            top: 0;
+            left: 0;
+        }
+    }
+}
+//---- MEDIA QUERIES 1024 ----\\
+@media screen and (max-width : 1024px) {
+    .bloc-menu{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .menu-card{
+        width: 45%;
+    }
+}
+//---- MEDIA QUERIES 1440 ----\\
+@media screen and (min-width : 1025px){
+    .bloc-menu{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .menu-card{
+        width: 40%;
+    }
 }
