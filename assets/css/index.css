@@ -638,8 +638,8 @@ main > p {
   cursor: pointer;
 }
 .btn-explore:hover {
-  box-shadow: 2px 2px 10px #9b9b9b;
-  background: linear-gradient(342deg, #ff79da 15%, #9356dc 85%);
+  filter: brightness(115%);
+  box-shadow: 2px 2px 12px #5a5a5a;
 }
 .btn-explore:active {
   box-shadow: -2px -2px 12px #9b9b9b;
@@ -693,8 +693,8 @@ main > p {
   cursor: pointer;
 }
 .btn-command:hover {
-  box-shadow: 2px 2px 10px #9b9b9b;
-  background: linear-gradient(342deg, #ff79da 15%, #9356dc 85%);
+  filter: brightness(115%);
+  box-shadow: 2px 2px 12px #5a5a5a;
 }
 .btn-command:active {
   box-shadow: -2px -2px 12px #9b9b9b;
