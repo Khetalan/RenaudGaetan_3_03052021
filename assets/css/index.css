@@ -624,7 +624,7 @@ main > p {
 
 .btn-explore {
   display: flex;
-  background: linear-gradient(176deg, #ff79da 0%, #9356dc 70%);
+  background: linear-gradient(162deg, #ff79da 0%, #9356dc 85%);
   border-radius: 30px;
   box-shadow: 2px 2px 10px #9b9b9b;
   padding: 20px;
@@ -639,11 +639,11 @@ main > p {
 }
 .btn-explore:hover {
   box-shadow: 2px 2px 10px #9b9b9b;
-  background: linear-gradient(342deg, #ff79da 15%, #9356dc 100%);
+  background: linear-gradient(342deg, #ff79da 15%, #9356dc 85%);
 }
 .btn-explore:active {
   box-shadow: -2px -2px 12px #9b9b9b;
-  background: linear-gradient(342deg, #ff79da 0%, #9356dc 70%);
+  background: linear-gradient(342deg, #ff79da 0%, #9356dc 50%);
 }
 
 .btn-step {
