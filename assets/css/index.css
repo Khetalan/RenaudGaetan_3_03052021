@@ -141,7 +141,7 @@ main > p {
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) {
   .service {
     max-width: 768px;
   }
@@ -160,7 +160,7 @@ main > p {
     margin: auto;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .service {
     max-width: 1024px;
   }
@@ -173,7 +173,7 @@ main > p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 47%;
+    width: 60%;
     margin: auto;
   }
 }
@@ -333,6 +333,7 @@ main > p {
 }
 .menu-card {
   height: 100%;
+  margin: auto;
   border-radius: 15px 15px 0px 0px;
   text-decoration: none;
   color: black;
@@ -366,7 +367,7 @@ main > p {
 .menu-card__text .new-menu {
   position: relative;
   top: -184px;
-  left: 22%;
+  left: 20%;
   color: #1b6150;
   font-weight: 500;
   background-color: #99E2D0;
@@ -374,7 +375,7 @@ main > p {
   border-radius: 3px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) {
   .bloc-menu {
     display: flex;
     flex-wrap: wrap;
@@ -390,7 +391,7 @@ main > p {
     left: 0;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .bloc-menu {
     display: flex;
     justify-content: space-around;
@@ -434,6 +435,11 @@ main > p {
   width: 40px;
   height: 3px;
   margin-bottom: 15px;
+}
+.eat-menu .eat-title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 .eat-menu .heart-anim {
   margin-bottom: 20px;
@@ -539,6 +545,29 @@ main > p {
   text-overflow: ellipsis;
 }
 
+@media screen and (min-width: 426px) {
+  .eat-menu {
+    justify-content: space-around;
+  }
+
+  .first, .second, .happy-hour {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .eat-menu {
+    justify-content: space-around;
+  }
+
+  .first, .second {
+    width: 40%;
+  }
+
+  .happy-hour {
+    width: 90%;
+    margin: auto;
+  }
+}
 .heart-anim {
   display: flex;
   align-items: center;
@@ -595,7 +624,7 @@ main > p {
 
 .btn-explore {
   display: flex;
-  background: linear-gradient(0deg, #9356dc 23%, #ff79da 100%);
+  background: linear-gradient(176deg, #ff79da 0%, #9356dc 70%);
   border-radius: 30px;
   box-shadow: 2px 2px 10px #9b9b9b;
   padding: 20px;
@@ -607,6 +636,14 @@ main > p {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   cursor: pointer;
+}
+.btn-explore:hover {
+  box-shadow: 2px 2px 10px #9b9b9b;
+  background: linear-gradient(342deg, #ff79da 15%, #9356dc 100%);
+}
+.btn-explore:active {
+  box-shadow: -2px -2px 12px #9b9b9b;
+  background: linear-gradient(342deg, #ff79da 0%, #9356dc 70%);
 }
 
 .btn-step {
@@ -643,7 +680,8 @@ main > p {
 .btn-command {
   display: flex;
   margin: 0 auto 35px auto;
-  background: linear-gradient(0deg, #9356dc 23%, #ff79da 100%);
+  background: linear-gradient(162deg, #ff79da 0%, #9356dc 85%);
+  box-shadow: 2px 2px 10px #9b9b9b;
   border-radius: 30px;
 }
 .btn-command__button {
@@ -653,6 +691,14 @@ main > p {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   cursor: pointer;
+}
+.btn-command:hover {
+  box-shadow: 2px 2px 10px #9b9b9b;
+  background: linear-gradient(342deg, #ff79da 15%, #9356dc 85%);
+}
+.btn-command:active {
+  box-shadow: -2px -2px 12px #9b9b9b;
+  background: linear-gradient(342deg, #ff79da 0%, #9356dc 50%);
 }
 
 .section-explore {
