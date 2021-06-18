@@ -1,6 +1,6 @@
 .btn-explore{
     display: flex;
-    background: linear-gradient(0deg, rgba(147,86,220,1) 23%, rgba(255,121,218,1) 100%);
+    background: linear-gradient(176deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 70%);
     border-radius: 30px;
     box-shadow: 2px 2px 10px #9b9b9b;
     padding: 20px;
@@ -11,5 +11,14 @@
         font-family: 'Roboto', sans-serif;
         font-weight: normal;
         cursor: pointer;
+    }
+    &:hover{
+        box-shadow: 2px 2px 10px #9b9b9b;
+        background: linear-gradient(342deg, rgba(255,121,218,1) 15%, rgba(147,86,220,1) 100%);
+
+    }
+    &:active{
+        box-shadow: -2px -2px 12px #9b9b9b;
+        background: linear-gradient(342deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 70%);
     }
 }
