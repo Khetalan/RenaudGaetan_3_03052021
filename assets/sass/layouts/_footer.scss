@@ -31,7 +31,7 @@
     }
 }
 //---- MEDIA QUERIES 768 ----\\
-@media screen and (max-width : 768px) {
+@media screen and (min-width : 426px) {
     .service{
         max-width: 768px;
     }
@@ -52,7 +52,7 @@
     }
 }
 //---- MEDIA QUERIES 1024 ----\\
-@media screen and (max-width : 1024px) {
+@media screen and (min-width : 768px) {
     .service{
         max-width: 1024px;
     }
@@ -65,7 +65,7 @@
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
-            width: 47%;
+            width: 60%;
             margin: auto;
         }
     }

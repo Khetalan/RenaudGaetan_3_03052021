@@ -1,5 +1,6 @@
 .menu-card{
     height: 100%;
+    margin: auto;
     border-radius: 15px 15px 0px 0px;
     text-decoration: none;
     color: black;
@@ -31,7 +32,7 @@
         .new-menu{
             position: relative;
             top: -184px;
-            left: 22%;
+            left: 20%;
             color: darken($color: $tertiary, $amount: 50%);
             font-weight: 500;
             background-color: $tertiary;
@@ -41,7 +42,7 @@
     }
 }
 //---- MEDIA QUERIES 768 ----\\
-@media screen and (max-width : 768px) {
+@media screen and (min-width : 426px) {
     .bloc-menu{
         display: flex;
         flex-wrap: wrap;
@@ -57,7 +58,7 @@
     }
 }
 //---- MEDIA QUERIES 1024 ----\\
-@media screen and (max-width : 1024px) {
+@media screen and (min-width : 768px) {
     .bloc-menu{
         display: flex;
         justify-content: space-around;
